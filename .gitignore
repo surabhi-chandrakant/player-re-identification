@@ -1,0 +1,16 @@
+# Python virtual environment
+venv/
+.venv/ # Sometimes named .venv
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Large model and video files (DO NOT PUSH THESE TO GITHUB)
+*.pt       # For yolov11_model.pt
+*.mp4      # For 15sec_input_720p.mp4 and reidentified_output.mp4
+*.avi      # In case you change codec
+
+# Operating System junk files
+.DS_Store
+Thumbs.db
